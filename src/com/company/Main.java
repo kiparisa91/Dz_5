@@ -15,38 +15,56 @@ public class Main {
 
 
         //Задача2
-        for (int i=0; i < arr.length-1; i++) {
+        for (int i=0; i < arr.length; i++) {
+            if (i == arr.length - 1) {
+                System.out.print(arr[i]);
+                break;
+            }
             System.out.print(arr[i] + ", ");
         }
-            System.out.print(arr[arr.length-1]);
             System.out.print("\n");
-        for (int i=0; i < doubleArr.length-1; i++) {
+        for (int i=0; i < doubleArr.length; i++) {
+            if (i == doubleArr.length - 1) {
+                System.out.print(doubleArr[i]);
+                break;
+            }
             System.out.print(doubleArr[i] + ", ");
         }
-            System.out.print(doubleArr[doubleArr.length-1]);
             System.out.print("\n");
-        for (int i=0; i < numbers.length-1; i++) {
+        for (int i=0; i < numbers.length; i++) {
+            if (i == numbers.length - 1) {
+                System.out.print(numbers[i]);
+                break;
+            }
             System.out.print(numbers[i] + ", ");
         }
-            System.out.print(numbers[numbers.length-1]);
             System.out.print("\n");
 
 
         //Задача3
-        for (int i=arr.length-1; i > 0; i=i-1) {
+        for (int i=arr.length-1; i >= 0; i=i-1) {
+            if (i == 0) {
+                System.out.print(arr[i]);
+                break;
+            }
             System.out.print(arr[i] + ", ");
         }
-            System.out.print(arr[0]);
             System.out.print("\n");
-        for (int i=doubleArr.length-1; i > 0; i=i-1) {
+        for (int i=doubleArr.length-1; i >= 0; i=i-1) {
+            if (i == 0) {
+                System.out.print(doubleArr[i]);
+                break;
+            }
             System.out.print(doubleArr[i] + ", ");
         }
-            System.out.print(doubleArr[0]);
             System.out.print("\n");
-        for (int i=numbers.length-1; i > 0; i=i-1) {
+        for (int i=numbers.length-1; i >= 0; i=i-1) {
+            if (i == 0) {
+                System.out.print(numbers[i]);
+                break;
+            }
             System.out.print(numbers[i] + ", ");
         }
-            System.out.print(numbers[0]);
             System.out.print("\n");
 
 
